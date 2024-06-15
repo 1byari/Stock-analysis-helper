@@ -1,11 +1,6 @@
 # Stock Analysis Helper
 
 ### Author: Oleksandr Popovych
-### Institution: ČVUT–FIT
-### Email: popovole@fit.cvut.cz
-### Date: May 26, 2024
-
-## Introduction
 
 Stock Analysis Helper is a project designed to aid in the analysis of financial markets using data visualization technology on the Dash platform by Plotly.
 
@@ -22,23 +17,39 @@ Stock Analysis Helper is a project designed to aid in the analysis of financial 
 #### 3.1 Moving Average (MA)
 - Moving averages are typically used with time series data to smooth out short-term fluctuations and highlight longer-term trends or cycles.
 
+![screenshot_ma](https://github.com/1byari/Stock-analysis-helper/assets/74068520/5359fc15-dd5a-4e44-bf7d-6fe31b3b07cd)
+
+
 #### 3.2 Relative Strength Index (RSI)
 - RSI uses an exponential averaging method and a specific formula to map price movements on a scale from 0 to 100, clearly showing the real value of each price change.
+
+![screenshot_rsi](https://github.com/1byari/Stock-analysis-helper/assets/74068520/1cbbe9e1-e7fd-46bb-9870-a6d137a25c59)
+
 
 #### 3.3 Moving Average Convergence-Divergence (MACD)
 - MACD uses two moving averages of different lengths to determine the direction and duration of a trend (main and signal lines). The histogram shows the difference between the lines. Positive values of the main and signal lines characterize a rising trend, while negative values indicate a falling trend.
 
+![screenshot_macd](https://github.com/1byari/Stock-analysis-helper/assets/74068520/11c72509-27f2-486d-bfd6-b1e338a3273e)
+
 #### 3.4 Swing
 - The swing indicator measures the percentage change in the stock price over a given time interval, allowing identification of short-term trends and market fluctuations.
 
+![screenshot_swing](https://github.com/1byari/Stock-analysis-helper/assets/74068520/d0337c66-2d20-4463-af66-ce22ab2b11f9)
+
+
 #### 3.5 Candlestick Pattern Analysis
 - Candlestick models display a range of price information such as open price, close price, high, and low prices, using graphical symbols shaped like candles, each providing a concise overview of trading activity over a certain period.
+
+![screenshot_candles](https://github.com/1byari/Stock-analysis-helper/assets/74068520/609bc429-a103-4103-b77e-5f17258e6583)
 
 ### 4. Time Interval Selection for Analysis
 - Users can choose start and end dates for the analysis, allowing detailed exploration of market trends.
 
 ### 5. News Analysis
 - The application provides news for selected stocks and analyzes the sentiment of the news articles using an NLP pipeline to determine the overall mood.
+
+<img width="288" alt="screenshot_news" src="https://github.com/1byari/Stock-analysis-helper/assets/74068520/4e11f934-4163-47bf-b79f-6dc533d2628a">
+
 
 ## Technical Implementation
 
