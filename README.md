@@ -1,6 +1,4 @@
-# Stock Analysis Helper
-
-### Author: Oleksandr Popovych
+# Project description
 
 Stock Analysis Helper is a project designed to aid in the analysis of financial markets using data visualization technology on the Dash platform by Plotly.
 
@@ -69,3 +67,45 @@ This project has significant development potential. Only a small percentage of v
 ## Conclusion
 
 The "Stock Analysis Helper" can significantly aid users in analyzing market trends. The developed application allows users not only to track current quotes but also to analyze financial markets using various indicators and news analysis.
+
+
+
+# How to use this project 
+
+## Prerequisites
+
+Ensure you have Python 3.8+ installed on your system
+
+## Installation ##
+
+1. **Clone the repository**:
+2. **Install the dependencies**:
+`pip install -r requirements.txt`
+
+
+## Running the Application
+Execute the following command in the app directory of the project:
+`python run.py`
+
+Navigate to the url provided by Dash in your web browser to view the app.
+
+## Testing ##
+
+**Make sure you have chromedriver installed locally**
+
+Execute the following command in the root directory of the project:
+`pytest`
+
+## Usage ##
+- Selecting Tickers and Indicators: Use the dropdown menus to select the stock tickers and the financial indicators you want to analyze.
+- Adjusting Date Ranges: Pick start and end dates to define the period for your stock data.
+- Viewing News Sentiments: Click on the 'Load News' button to fetch and display sentiment analysis results for the selected ticker.
+
+
+
+
+
+
+
+
+
